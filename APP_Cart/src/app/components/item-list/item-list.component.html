@@ -1,0 +1,28 @@
+<div class="album py-5 bg-light">
+    <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    @for(item of products; track item.code; let i=$index){
+                    <div class="col">
+                            <div class="card shadow-sm">
+                                    <img src="assets/images/products/{{item.code}}.jpg" alt="">
+
+                                    <div class="card-body">
+                                            <p class="card-text">{{item.name}}</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="btn-group">
+                                                            <button type="button"
+                                                                    class="btn btn-sm btn-outline-secondary" (click)="clickButton1()">{{labelButton1}}</button>
+                                                            <button type="button"
+                                                                    class="btn btn-sm btn-outline-secondary" (click)="clickButton2()">{{labelButton2}}</button>
+                                                    </div>
+                                                    <small class="text-muted">Precio: {{item.unitPrice}}</small>
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+            }
+
+            </div>
+    </div>
+</div>
