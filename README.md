@@ -1,2 +1,0 @@
-# Maestria
-Archivos maestría
