@@ -1,0 +1,8 @@
+.form-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius:10%;
+  background-color: white;
+}

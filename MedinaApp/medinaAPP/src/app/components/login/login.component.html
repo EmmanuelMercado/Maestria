@@ -1,0 +1,18 @@
+<div class="form-login">
+
+  <form class="row" style="display: flex; justify-content: center; align-items: center; padding: 10px;" (ngSubmit)="loginUser()">
+    <input type="text" name="User" class="form-control mb-2" placeholder="Ingrese su usuario" style="width: 70%;"
+    [(ngModel)]="userData.user">
+
+    <input type="password" name="Password" class="form-control mb-2" placeholder="Ingrese su contraseña" style="width: 70%;"
+    [(ngModel)]="userData.password" >
+    <button type="submit" class="btn" style="background-color: #305680; width: 70%; color: aliceblue;" >
+      Ingresar
+    </button>
+
+  </form>
+
+
+</div>
+
+

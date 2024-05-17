@@ -1,0 +1,14 @@
+.loginContainer{
+  height: 30vh;
+  width: 30vw;
+
+}
+
+
+.pageLogin{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

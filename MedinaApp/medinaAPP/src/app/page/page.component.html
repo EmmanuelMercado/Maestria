@@ -1,0 +1,9 @@
+<div *ngIf="!isLogin" class="pageLogin">
+  <div  class="loginContainer">
+    <app-login></app-login>
+  </div>
+</div>
+
+<div *ngIf="isLogin">
+  <h1>Bienvenido: {{userInformation}}</h1>
+</div>
